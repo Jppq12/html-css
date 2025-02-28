@@ -1,0 +1,11 @@
+@charset "UTF-8";
+div > p{display:none
+
+}
+div:hover > p{
+    background-color: aqua;
+    display: block;
+}
+div:hover{
+    color: rgb(255, 0, 0);
+}

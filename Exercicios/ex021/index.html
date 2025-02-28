@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(0, 132, 255);
+        }
+        a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        a:active{
+            color: aqua;
+        }
+        .teste{ color: rgb(255, 255, 255);
+            background-color: rgb(150, 0, 0);
+
+        }
+        a::before{
+            content: ' / ';
+        }
+        a::after{
+            content: ' / ';
+            color: black;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/butinao12/" class="teste">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@butinao12">Youtube</a></li>
+        <li><a href="https://www.twitch.tv/butinao12">Twitch</a></li>
+    </ul>
+</body>
+</html>

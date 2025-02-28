@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+h1#a{text-align: right;
+    color: rgb(173, 4, 4);
+    background-color: white;
+
+}
+h2{
+    color: rgb(0, 0, 255);
+    text-align: center;
+}
+.a{
+    color: rgb(255, 0, 0);
+}
+.b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+    font-weight: bold;
+}
+/*Posso colocar ID e class no mesmo elemento
+Id sobrepoe class
+posso ter 2 class no mesmo elemento Ex: class"a b"
+Id é identificado com a # ,o class com .
+*/

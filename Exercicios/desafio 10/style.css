@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+body{
+    padding: 0px 150px 0px 150px;
+    background-color: rgb(119, 119, 119);
+}
+header{
+    background-color: #105c2c;
+    color: white;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+header > h1{
+    text-align: center;
+}
+header > h2{
+    text-align: center;
+}
+h1#titulo{
+    color: #105c2c;
+    font-family: idroid;
+}
+h2#subt{
+    font-family: idroid;
+    color: #105c2c;
+    background-color: #a0ecbc;
+}
+button{
+    background-color: #a0ecbc;
+}
+header > a{
+    color: #acb6b0;
+    padding: 5px;
+}
+header > a:hover{
+    background-color: white;
+    color: black;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    padding-top: 2px;
+    padding-left: 5px;
+}
+div#main{
+    border: white;
+    background-color: white;
+    padding: 5px;
+}
+.a{
+    background-color: #a0ecbc;
+    color: #105c2c ;
+}
+footer{
+    border: 10px solid white;
+    background-color: white;
+}
+h1#c{
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #105c2c;
+}
+div#footer{
+    border-radius: 15px;
+    background-color: #a0ecbc;
+    padding: 5px;
+    border: 10px solid white;
+
+}
+footer{
+    background-color: #105c2c;
+    color: white;
+    font-family: idroid; 
+    padding: 5px;
+}
+a#a{
+    color: #105c2c ;
+}
