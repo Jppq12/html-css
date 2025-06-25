@@ -1,0 +1,30 @@
+div {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 50px 50px 250px 250px 50px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.topo {
+    
+    grid-area: 1 / 5 / 1 / 1;
+}
+
+.menu {
+    grid-area: 2 / 1 / span 1 /span 4;
+}
+
+.principal {
+    grid-area: 3 / 1 / span 2/span 3;
+}
+.secundario {  
+    grid-area: 3 / 4 / span 2 / span 1;
+}
+
+.rodape {
+    grid-area: 5 / 1 / span 1 / span 4 ;
+}
